@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D.R.E.A.M. Event Center</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff8f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #f9c6ff, #fceff9);
+      padding: 60px 20px;
+      text-align: center;
+      background-image: url('https://cdn.pixabay.com/photo/2017/09/25/13/12/butterfly-2788968_1280.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .highlight {
+      color: #b94fcf;
+      font-weight: bold;
+    }
+    .event-types {
+      background: #fff0fb;
+      border-left: 5px solid #f9b2f2;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    .contact {
+      background: #fafafa;
+      padding: 30px;
+      border-top: 2px solid #eee;
+      text-align: center;
+    }
+    .footer {
+      background: #eee;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    a.button {
+      display: inline-block;
+      background: #b94fcf;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #9e3fad;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>D.R.E.A.M. Event Center</h1>
+    <p>Making Your Dreams Come True in Wichita Falls, TX</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Located at <span class="highlight">1119 Central Fwy, Wichita Falls, TX 76306</span>, D.R.E.A.M. Event Center is your go-to destination for unforgettable celebrations. We host:</p>
+    <div class="event-types">
+      <ul>
+        <li>✨ Weddings</li>
+        <li>🎉 Birthday Parties</li>
+        <li>🎤 Conferences</li>
+        <li>💃 Quinceañeras</li>
+        <li>🌟 Local Events & More!</li>
+      </ul>
+    </div>
+    <p class="highlight">Call us today for pricing and tours!</p>
+    <a class="button" href="tel:+14696319677">Call (469) 631‑9677</a>
+  </section>
+
+  <section class="contact">
+    <h2>Contact & Reservations</h2>
+    <p>📞 Phone: <a href="tel:+14696319677">(469) 631‑9677</a></p>
+    <p>Please call to make your reservation. We look forward to celebrating with you!</p>
+  </section>
+
+  <div class="footer">
+    © 2025 D.R.E.A.M. Event Center | Designed with 💜 and butterflies
+  </div>
+
+</body>
+</html>
